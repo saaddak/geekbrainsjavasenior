@@ -6,24 +6,24 @@ public class SuddenlyMain {
         integerSwapGeneric.showType();
         integerSwapGeneric.arrayPrinter();
         integerSwapGeneric.swapper(3, 6);
-        System.out.println("Позиции 3 и 6 в массиве были изменены местами.");
+        System.out.println("Позиции 3 и 6 в массиве были местами изменены.");
         integerSwapGeneric.arrayPrinter();
 
-        System.out.println();
+        System.out.println("");
 
         UniversalSoldierGeneric<String> stringSwapGeneric = new UniversalSoldierGeneric<>("Camillo Agrippa", "Hans Talhoffer", "Joachim Meyer", "Jerónimo Sánchez de Carranza", "Gérard Thibault d'Anvers", "Luis Pacheco de Narváez", "Fiore Furlano de'i Liberi", "Achille Marozzo", "Giacomo di Grassi", "Nicoletto Giganti");
         stringSwapGeneric.showType();
         stringSwapGeneric.arrayPrinter();
         stringSwapGeneric.swapper(3, 7);
-        System.out.println("Карранза меняется местами с Мароццо.");
+        System.out.println("Карранза и Мароццо меняются местами.");
         stringSwapGeneric.arrayPrinter();
 
-        System.out.println();
+        System.out.println("");
 
         stringSwapGeneric.asArrayLister();
         stringSwapGeneric.listPrinter();
 
-        System.out.println();
+        System.out.println("");
 
         Box<Apple> appleBox = new Box<>(new Apple("elongated", "red", "unripe", 1.0f, "Royal Gala", 2.5f), new Apple("rounded", "yellow", "ripe", 1.0f, "Golden Delicious", 1.0f));
 
